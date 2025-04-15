@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: sit323-task6p-deployment
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: sit323-task6p
+  template:
+    metadata:
+      labels:
+        app: sit323-task6p
+    spec:
+      containers:
+      - name: sit323-task6p
+        image: high131/sit323-task6p:latest
+        ports:
+        - containerPort: 3040

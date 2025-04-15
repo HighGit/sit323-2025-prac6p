@@ -1,0 +1,16 @@
+{
+  "name": "sit323-2025-prac4c",
+  "version": "1.0.0",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Hai Cao <Hai.Cao@gmail.com>",
+  "license": "ISC",
+  "description": "Node.js on Docker",
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}
